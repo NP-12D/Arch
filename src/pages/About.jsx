@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import PortfolioData from"../components/PortfolioiData";
 import ImgTextRow from "../components/ImgTextRow/ImgTextRow";
 import style from "./About.module.css"
+import Leader from "../components/Leaders/Leader";
 export default function About() {
      console.log(PortfolioData);
   return (
@@ -12,6 +13,7 @@ export default function About() {
     <main className={style.about}>
    <Header pageName="ABOUT"/>
      <ImgTextRow></ImgTextRow>
+     <Leader/>
    <Footer/>
    </main>
     </>
