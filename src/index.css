@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: gainsboro;
+}
+a,button{
+  cursor: pointer;
+}
+body{
+  position: relative;
+  max-width: 1440px;
+  font-family: "League Spartan", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.mainheader{
+font-weight: 700;
+font-size: 250px;
+line-height: 200px;
+letter-spacing: -5px;
+color: #EEEFF4;
+position: absolute;
+margin-top:108px ;
+
+
+}

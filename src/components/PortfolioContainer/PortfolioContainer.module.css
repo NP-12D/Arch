@@ -1,0 +1,7 @@
+.portfolioContainer {
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(350px)) ;
+  gap: 30px;
+}

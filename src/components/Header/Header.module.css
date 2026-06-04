@@ -1,0 +1,22 @@
+.header {
+  padding-block: 56px;
+  display: flex;
+  align-items: center;
+ 
+  gap:94px;
+}
+.nav {
+  width: 313px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  font-family: League Spartan;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  color: #7d828f;
+}

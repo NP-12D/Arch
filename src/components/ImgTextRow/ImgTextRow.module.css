@@ -1,0 +1,51 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 558px;
+}
+.forimg,.fortext{
+   height: 100%;
+    width: 40%;
+
+}
+.fortext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fortext>div{
+    
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.header {
+
+    width: min-content;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #1b1d23;
+}
+
+.text {
+    
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #60636d;
+}
+
+
+.forimg{
+    height: 100%;
+background-image: url("/about1.png");
+background-position: center;
+background-size: cover;
+}
