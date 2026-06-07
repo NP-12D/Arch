@@ -1,5 +1,19 @@
-.home{
-    
-    top: 0;
-    padding-inline: 165px;
+.home {
+  top: 0;
+  padding-inline: 165px;
+}
+@media screen and (max-width: 1000px) {
+  .home {
+    padding-inline: 97px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home {
+    padding-inline: 50px;
+  }
+}
+@media screen and (max-width: 373px) {
+  .home {
+    padding-inline: 32px;
+  }
 }

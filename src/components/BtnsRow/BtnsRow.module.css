@@ -29,3 +29,15 @@
 color: #FFFFFF;
   
 }
+@media screen and (max-width:600px) {
+  .btns {
+  
+ left: 0px;
+
+ 
+}
+.btn{
+  width: 60px;
+  height: 60px;
+}
+}

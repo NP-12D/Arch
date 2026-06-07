@@ -1,6 +1,18 @@
-.about{
-    
-   
-    padding-inline: 165px;
-    
+.about {
+  padding-inline: 165px;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding-inline: 97px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about {
+    padding-inline: 50px;
+  }
+}
+@media screen and (max-width: 373px) {
+  .about {
+    padding-inline: 32px;
+  }
 }

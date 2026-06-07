@@ -22,3 +22,20 @@
 .btn:hover{
     background-color: #60636D;
 }
+@media screen and (max-width:700px) {
+    .btn{
+          padding: 20px 22px 18px 27px;
+  
+  
+  font-size: 16.5px;
+  line-height: 15px;
+    }
+}
+@media screen and (max-width:370px) {
+    .btn{
+       
+  
+  font-size: 14px;
+ 
+    }
+}

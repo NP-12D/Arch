@@ -1,6 +1,6 @@
 .section{
     display: flex;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
     position: relative;
 
 }
@@ -55,4 +55,47 @@ color: #60636D;
 .text h2{
     top:-100px!important;
     margin-top: 0px;
+}
+
+
+@media screen and (max-width: 769px) {
+    .section {
+        flex-direction: row; 
+        padding-bottom: 100px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .img img {
+        height: 720px;
+    }
+
+    .textcontainer{
+        width: auto;
+    }
+    .text {
+        z-index: 999;
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        left: 58px;
+        max-height: 503px;
+        padding: 50px;
+    }
+
+    .text h1 {
+        font-size: 62px;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .text p{
+        font-size: 16.5px;
+    }
+}
+@media screen and(max_width:376px) {
+    .text h1 {
+        font-size: 36px;
+    }
 }

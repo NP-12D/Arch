@@ -29,3 +29,26 @@ letter-spacing: -2px;
 color: #fff;
 
 }
+@media screen and (max-width:850px){
+   .container{
+        margin-left: 58px;
+    }
+}
+@media screen and (max-width:600px) {
+    .section{
+        position: relative;
+        width: 100vw;
+        left: -50px;
+         margin-bottom: 73px;
+    }
+    .container{
+        margin-left: 32px;
+    }
+}
+@media screen and (max-width:373px) {
+  
+     .section{
+     
+        left: -32px;
+    }
+}

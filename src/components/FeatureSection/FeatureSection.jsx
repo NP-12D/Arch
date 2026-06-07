@@ -11,6 +11,7 @@ export default function FeatureSection() {
         <div className={styles.featured}><h2>Featured</h2>
         <Button text="See All" onClick={()=>navigate("/portfolio")}></Button></div>
          <PortfolioContainer arr={PortfolioData.slice(0,3)}/>
+            <Button  text="See All" onClick={()=>navigate("/portfolio")}></Button>
       </section>
     </>
   );

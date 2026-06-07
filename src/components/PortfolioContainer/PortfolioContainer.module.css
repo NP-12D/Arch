@@ -1,7 +1,20 @@
 .portfolioContainer {
-
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, min(350px)) ;
+  grid-template-columns: repeat(auto-fit, min(350px));
   gap: 30px;
+  justify-content: center;
 }
+@media screen and (max-width: 1440px) {
+  .portfolioContainer {
+    grid-template-columns: repeat(auto-fit, min(300px));
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .portfolioContainer {
+   grid-template-columns:1fr;
+  }
+}
+
+

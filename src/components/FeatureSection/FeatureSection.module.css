@@ -1,5 +1,5 @@
 .section{
-    margin-bottom: 200px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
     gap:64px;
@@ -16,4 +16,42 @@
   line-height: 64px;
   letter-spacing: -2px;
   color: #1b1d23;
+  margin-top: 41px;
+}
+.section>button{
+  display: none;
+}
+@media  screen and (max-width: 992px) {
+  .section {
+    gap: 40px;
+  }
+  
+  .featured h2 {
+    font-size: 56px;
+    
+  }
+}
+
+@media  screen and (max-width: 600px) {
+  .section {
+    
+    gap: 30px;
+  
+  }
+
+  .featured {
+    align-items: flex-start;
+    
+  }
+  .featured  button{
+    display: none;
+  }
+.section>button{
+  display: block;
+}
+  .featured h2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1px;
+  }
 }

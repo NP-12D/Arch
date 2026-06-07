@@ -1,3 +1,18 @@
 .contact{
     padding-inline: 165px;
 }
+@media screen and (max-width: 768px) {
+  .contact{
+    padding-inline: 97px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    padding-inline: 50px;
+  }
+}
+@media screen and (max-width: 373px) {
+  .contact {
+    padding-inline: 32px;
+  }
+}
