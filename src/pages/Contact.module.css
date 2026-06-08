@@ -61,7 +61,14 @@ transition: 0.5s color;
 .mapbutton:hover{
 color:#60636D;
 }
-
+.map{
+    width: 100%;
+    height: 560px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
 @media screen and (max-width: 1000px) {
       .contactinfo{
 flex-direction: column;   
@@ -92,7 +99,15 @@ flex-direction: column;
   .contact {
     padding-inline: 50px;
   }
- 
+  .map{
+    height: 367px;
+  }
+ .map iframe{
+    position: absolute;
+    width: 100vw;
+    left:0;
+    height: 367px;
+ }
 
 }
 @media screen and (max-width: 500px) {
