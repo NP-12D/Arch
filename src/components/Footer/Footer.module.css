@@ -65,7 +65,7 @@
   }
 }
 
-@media (max-width: 725px) {
+@media (max-width: 785px) {
   .footer {
     position:absolute; 
     width: 100vw;
@@ -98,7 +98,7 @@
 
   .btn {
     transform: none;
-    margin-top: 15px;
+    margin-top: 0px;
     position: static;
     right:0;
     top:0;

@@ -6,7 +6,7 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0px;
-  text-align: right;
+  text-align: left;
   display: flex;
   align-items: center;
   gap:24px;
@@ -22,13 +22,16 @@
 .btn:hover{
     background-color: #60636D;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .btn{
           padding: 20px 22px 18px 27px;
   
   
   font-size: 16.5px;
   line-height: 15px;
+    }
+    .btn{
+        margin-top: 0px;
     }
 }
 @media screen and (max-width:370px) {

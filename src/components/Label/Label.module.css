@@ -31,9 +31,10 @@
   letter-spacing: 18px;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1000px) {
   .label{
       left: 38px;
+      right: 35px;
   }
   
 }

@@ -1,8 +1,8 @@
-.section{
-    padding-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    gap:64px;
+.section {
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
 .featured {
   width: 100%;
@@ -18,37 +18,38 @@
   color: #1b1d23;
   margin-top: 41px;
 }
-.section>button{
+.section > button {
   display: none;
 }
-@media  screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .section {
     gap: 40px;
   }
-  
+
   .featured h2 {
     font-size: 56px;
-    
+  }
+}
+@media screen and (max-width: 850px) {
+  .featured h2 {
+    margin-top: 0px;
   }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .section {
-    
     gap: 30px;
-  
   }
 
   .featured {
     align-items: flex-start;
-    
   }
-  .featured  button{
+  .featured button {
     display: none;
   }
-.section>button{
-  display: block;
-}
+  .section > button {
+    display: block;
+  }
   .featured h2 {
     font-size: 40px;
     line-height: 44px;

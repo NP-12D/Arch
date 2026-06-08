@@ -1,17 +1,101 @@
 .contact{
     padding-inline: 165px;
 }
-@media screen and (max-width: 768px) {
+.contactinfo h1{
+font-weight: 700;
+font-size: 72px;
+line-height: 64px;
+letter-spacing: -2px;
+max-width: 350px;
+
+}
+.contactinfo{
+display: flex; 
+margin-block: 200px;   
+}
+.contactinfo h2{
+font-weight: 700;
+font-size: 18px;
+line-height: 35px;
+letter-spacing: 0px;
+color:#60636D ;
+margin-bottom: 14px;
+
+}
+.contactinfo p,.contactinfo a{
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0px;
+color:#60636D;
+}
+ .contactinfo a{
+    text-decoration: none;
+  
+}
+
+.contactdetails{
+    display: flex;
+   gap:30px;
+    
+
+
+}
+.contactitem{
+display: flex;
+flex-direction: column;
+
+}
+.mapbutton{
+    margin-top: 41px;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color:#1B1D23;
+background-color: transparent;
+border: none;
+transition: 0.5s color;
+}
+.mapbutton:hover{
+color:#60636D;
+}
+
+@media screen and (max-width: 1000px) {
+      .contactinfo{
+flex-direction: column;   
+}
+.contactinfo h1{
+    margin-bottom: 41px;
+}
+.contactdetails{
+    flex-direction: column;
+}
+.contactitem{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+@media screen and (max-width: 900px) {
   .contact{
     padding-inline: 97px;
   }
+  .contactitem{
+    align-items: self-start;
+    flex-direction: column;
+  }
+
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .contact {
     padding-inline: 50px;
   }
+ 
+
 }
-@media screen and (max-width: 373px) {
+@media screen and (max-width: 500px) {
   .contact {
     padding-inline: 32px;
   }

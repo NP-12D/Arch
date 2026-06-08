@@ -7,7 +7,7 @@ export default function Footer(){
     return(<>
     <footer className={style.footer}>
         <div className={style.logo}>
-            
+            <img src="/logoWhite.svg" alt="Arch Logo" />
         </div>
         <nav className={style.nav}>
             <Link to="/portfolio">Portfolio</Link>
