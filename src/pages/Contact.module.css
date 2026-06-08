@@ -11,7 +11,7 @@ max-width: 350px;
 }
 .contactinfo{
 display: flex; 
-margin-block: 200px;   
+margin-bottom: 200px;   
 }
 .contactinfo h2{
 font-weight: 700;
@@ -93,6 +93,9 @@ flex-direction: column;
 
 }
 @media screen and (max-width: 650px) {
+    .contactinfo{
+        margin-bottom: 78px;
+    }
   .contact {
     padding-inline: 50px;
   }

@@ -9,7 +9,7 @@
 
 .container{
     display: grid;
-   grid-template-columns: repeat(auto-fit, min(350px)) ;
+   grid-template-columns: 1fr 1fr ;
     column-gap: 30px;
   row-gap: 60px;
   
@@ -21,7 +21,7 @@
   padding-bottom: 160px;
  justify-content: space-between;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:1200px) {
   .row{
       grid-template-columns: 1fr;
        gap:48px;
@@ -30,6 +30,8 @@
   .container{
     width: 100%;
     grid-template-columns: 1fr 1fr!important ;
+    row-gap: 30px;
+    column-gap: 20px;
   }
 }
 @media screen and (max-width:600px) {

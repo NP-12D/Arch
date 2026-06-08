@@ -1,4 +1,5 @@
 .row{
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,5 +56,8 @@ background-size: cover;
     }
     .forimg{
         display: none;
+    }
+    .row{
+        margin-top: 78px;
     }
 }

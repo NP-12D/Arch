@@ -26,9 +26,10 @@ letter-spacing: 0px;
 color: #1B1D23;
 
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:1300px) {
   .card{
     height: auto;
+
   }
   .card h2{
     font-size: 25px;

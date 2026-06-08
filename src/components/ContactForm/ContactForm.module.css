@@ -5,7 +5,7 @@
   padding: 20px;
 }
 .contactFormrow > div {
-  width: max-content;
+
   flex: 1;
 }
  .contactFormrow {
@@ -75,6 +75,12 @@
   opacity: 1;
 }
 
+input::placeholder{
+  color:#C8CCD8 !important;
+}
+textarea::placeholder{
+  color:#C8CCD8 !important;
+}
 .errorText {
   position: absolute;
   right: 24px;
