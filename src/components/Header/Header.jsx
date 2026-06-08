@@ -13,6 +13,7 @@ export default function Header({pageName}) {
         <Link to='/about'>About</Link>
         <Link to='/contact'>Contact</Link>
         </nav>
+   
     </header>
    
     </>)

@@ -89,10 +89,7 @@ flex-direction: column;
   .contact{
     padding-inline: 97px;
   }
-  .contactitem{
-    align-items: self-start;
-    flex-direction: column;
-  }
+ 
 
 }
 @media screen and (max-width: 650px) {
@@ -108,7 +105,10 @@ flex-direction: column;
     left:0;
     height: 367px;
  }
-
+ .contactitem{
+    align-items: self-start;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 500px) {
   .contact {

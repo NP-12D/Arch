@@ -1,0 +1,158 @@
+.contactFormrow {
+  display: flex;
+
+  background-color: #ffffff;
+  padding: 20px;
+}
+.contactFormrow > div {
+  width: max-content;
+  flex: 1;
+}
+ .contactFormrow {
+    padding-block: 200px;
+  }
+.contactFormrow h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  max-width: 350px;
+  flex: 0 0 351px;
+}
+.contactForm {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.formGroup {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.formInput {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #111111;
+  background-color: transparent;
+  padding: 16px 120px 16px 24px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #111111;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.formInput::placeholder {
+  color: #111111;
+  opacity: 1;
+}
+
+.formInput:focus {
+  border-bottom-width: 2px;
+  border-bottom-color: #111111;
+}
+
+.formTextarea {
+  resize: none;
+  min-height: 80px;
+  align-self: flex-start;
+}
+
+.inputError {
+  border-bottom-color: #ff6b6b !important;
+  color: #ff9b9b;
+}
+
+.inputError::placeholder {
+  color: #ff9b9b !important;
+  opacity: 1;
+}
+
+.errorText {
+  position: absolute;
+  right: 24px;
+  bottom: 16px;
+  color: #ff4d4d;
+  font-size: 14px;
+  font-weight: 700;
+  pointer-events: none;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.submitBtn {
+  width: 80px;
+  height: 72px;
+  background-color: #5c626e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background-color 0.3s ease,
+    transform 0.1s ease;
+}
+
+.submitBtn:hover {
+  background-color: #1b1d23;
+}
+
+.submitBtn:active {
+  transform: scale(0.95);
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 850px) {
+  .contactFormrow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactFormrow h1 {
+    max-width: 100%;
+    flex: none;
+
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+  
+}
+@media (max-width: 600px) {
+  .contactFormrow h1 {
+    max-width: 350px;
+  }
+  .contactFormrow {
+    padding-top: 78px;
+    padding-bottom: 120px;
+  }
+}

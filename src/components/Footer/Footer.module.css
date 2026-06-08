@@ -59,7 +59,7 @@
   }
   .btn{
      position: absolute;
-  top: 60px;
+  
   right: -200px;
   transform: translate(-50%, -50%);
   }
