@@ -23,7 +23,7 @@ export default function Header({ pageName }) {
         <Link to="/">
           <img src={logo}></img>
         </Link>
-        <nav className={`${style.nav} ${burger ? style.navactive : ""}`}>
+        <nav className={`${style.nav} ${burger ? style.navactive : style.notnavactive}`}>
           <Link
             to="/portfolio"
             className={pathname === "/portfolio" ? style.active : ""}

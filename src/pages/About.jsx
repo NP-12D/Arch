@@ -1,7 +1,5 @@
 
 
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
 import PortfolioData from"../components/PortfolioiData";
 import ImgTextRow from "../components/ImgTextRow/ImgTextRow";
 import style from "./About.module.css"
@@ -18,11 +16,9 @@ export default function About() {
   return (
     <>
     <main className={style.about}>
-   <Header pageName="ABOUT"/>
    <Hero item={item}/>
      <ImgTextRow></ImgTextRow>
      <Leader/>
-   <Footer/>
    </main>
     </>
   );
